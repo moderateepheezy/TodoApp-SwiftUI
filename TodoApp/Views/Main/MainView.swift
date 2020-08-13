@@ -40,7 +40,6 @@ struct MainView: View {
                 NewTaskView(viewModel: NewTaskViewModel(dataManager: dataManager))
             }
         }
-        .background(Color.backgroundColor)
     }
 }
 
